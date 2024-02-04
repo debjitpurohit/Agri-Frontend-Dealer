@@ -41,7 +41,7 @@ const NavComponent=(props)=> {
     <>
     <Navbar fluid rounded className='fixed opacity-100 z-40 w-full top-0 left-0 border border-white shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] bg-gradient-to-r from-fuchsia-500 via-red-600 to-orange-400' id='nav'>
       <NavbarBrand href="https://flowbite-react.com">
-        <img src="https://github.com/debjitpurohit/Agri-Frontend-User/blob/master/src/assets/agrolife.jpg" className="mr-2 h-9 sm:h-9" alt="AgroChemicals" />
+        <img src="https://ibb.co/jDshBXc" className="mr-2 h-9 sm:h-9" alt="AgroChemicals" />
         <span className="self-center whitespace-nowrap text-3xl font-semibold text-white login">{props.title}</span>
       </NavbarBrand>
       <div className="flex md:order-3">
