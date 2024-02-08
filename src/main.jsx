@@ -5,7 +5,7 @@ import './index.css'
 import { Provider } from 'react-redux';
 import { store } from './redux/app/store';
 import {createContext} from "react"
-export const dealerserver = "https://agribackenddealer.onrender.com"
+export const dealerserver = "https://agribackenddealer.onrender.com/api/v1"
 // export const userserver = "http://localhost:5000/api/v1"
 export const Context = createContext({isdealerAuthenticated : false});
 
