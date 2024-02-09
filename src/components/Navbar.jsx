@@ -30,7 +30,7 @@ const NavComponent=(props)=> {
       toast.success("Dealer Logged Out Successfully");
       setIsdealerAuthenticated(false);
       setLoading(false);
-      window.location.reload(false);
+      // window.location.reload(false);
     } catch (error) {
       toast.error(error.response.data.message);
       setIsdealerAuthenticated(true);
